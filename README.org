@@ -1,0 +1,10 @@
+* Ivy Virtualbox
+
+Install with:
+
+#+begin_src elisp
+(use-package ivy-virtualbox
+  :load-path "~/src/github.com/lbolla/ivy-virtualbox/"
+  :bind
+  ("C-c v v" . ivy-virtualbox))
+#+end_src
