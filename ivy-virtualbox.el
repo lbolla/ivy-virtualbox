@@ -62,6 +62,7 @@
   (ivy-read "VirtualBox: "
             (ivy--virtualbox-vms prefix)
             :require-match t
+            :sort t
             :action '(1
                       ("i" ivy-virtualbox--status "status")
                       ("s" ivy-virtualbox--start "start")
